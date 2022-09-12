@@ -18,4 +18,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN_KEY }}
           branch: gh-pages # The branch the action should deploy to.
           folder: /links # The folder the action should deploy.
-          target-folder: .
+          target-folder:  /${{ env.link }}
